@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.paragrap{
+    
+margin: 1.5rem;
+}
+.title-section-head{
+    margin: 0rem;
+}
+
+.card-title{
+    margin: 0rem;
+}
+.inline-img img{
+width: 80px;
+margin: 0.9rem;
+
+
+}
+.icon-count-number{
+color:  #dddddd;
+
+}
+.site-button{
+margin: 0.9rem;
+background-color: #D6110B;
+}
+.card :hover .site-button{
+    background-color: black;
+}
+.icon-count-number{
+font: 4em sans-serif;
+}
+.card{
+    margin-top: 2rem;
+    box-shadow: none;
+    border:1px solid #cccccc;
+    overflow: hidden;
+}
+.card .layer{
+    position: absolute;
+  right: calc(100% - 2px);
+top:   0;
+  height: 100%;
+  width: 100%;
+    background: linear-gradient(#d6110b, #d6110b);
+    transition:  0.5s;
+   
+ z-index: 1;
+  }
+    
+.card:hover .layer {
+ right: 0%;
+ 
+}
+
+
+
+
